@@ -11,6 +11,9 @@
 <section class="banner">
     <div class="banner__slider">
         <div class="banner__item">
+            <video src="<?php echo get_template_directory_uri(); ?>/assets/video/qwer.mp4" autoplay muted loop width="100%"></video>            
+        </div>
+        <div class="banner__item">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner1.png" alt="banner">
         </div>
         <div class="banner__item">
@@ -33,7 +36,7 @@
     </div>
 </section>
 
-<section class="about">
+<section class="about" id="about">
     <div class="about__bg">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-bg.png" alt="bg">
     </div>
@@ -58,7 +61,7 @@
     </div>
 </section>
 
-<section class="services">
+<section class="services" id="services">
     <div class="container">
         <div class="services__title main-title">УСЛУГИ</div>
     </div>
@@ -204,7 +207,7 @@
 
     </div>
     <div class="container">
-        <div class="team__title2 main-title">КОМАНДА</div>
+        <div class="team__title2 main-title" id="team">КОМАНДА</div>
         <div class="team__slider2">
             <div class="team__item2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team1.jpg" alt="person">
@@ -281,7 +284,7 @@
     </div>
 </section>
 
-<section class="materials">
+<section class="materials" id="news">
     <div class="container">
         <div class="materials__title main-title">Актуальные материалы</div>
         <div class="materials__content">

@@ -6,7 +6,7 @@ if ($('.banner__slider').length) {
     fade: true,
     arrows: false,
     slidesToShow: 1,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2500,
     cssEase: 'linear'
   });
@@ -124,8 +124,8 @@ if ($('.team__slider2').length) {
 
 if ($(window).width() > 992) {
   for (let i = 0; i < $('.header__top a').length; i++) {
-    $('.header__top a').eq(i).hover(() => {
-      if ($('.header__top a').eq(i).is("#services")) {
+    $('.header__top li').eq(i).hover(() => {
+      if ($('.header__top li').eq(i).is(".services1")) {
         $('.header__bot').css('display', 'block')
       }
       else {

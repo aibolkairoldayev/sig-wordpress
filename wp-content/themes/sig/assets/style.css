@@ -307,7 +307,7 @@ img {
 .header__bot {
   position: absolute;
   left: 0;
-  bottom: -283px;
+  bottom: -277px;
   width: 100%;
   display: none;
   background: #81D8D0;
@@ -461,6 +461,12 @@ img {
 }
 
 .banner__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner__item video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -654,7 +660,7 @@ img {
   line-height: normal;
   display: block;
   margin-bottom: 30px;
-  max-width: 120px;
+  max-width: 380px;
 }
 
 .services__info a {
@@ -785,6 +791,10 @@ img {
   margin-bottom: 80px;
   position: relative;
   padding: 70px 0 90px;
+}
+
+.consult.hidden {
+  display: none;
 }
 
 .consult .container {
@@ -1117,7 +1127,7 @@ img {
 }
 
 .footer__subnav li {
-  height: 40px;
+  padding-bottom: 12px;
 }
 
 .footer__subnav li a {

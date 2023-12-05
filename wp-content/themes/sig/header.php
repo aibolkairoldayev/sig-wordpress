@@ -84,58 +84,22 @@
                     </p>
                 </div>
                 <div class="header__right">
-                    <ul>
-                        <li>
-                            <a href="">Оценка движимого и недвижимого имущества</a>
-                        </li>
-                        <li>
-                            <a href="">Оценка интеллектуальной собственности</a>
-                        </li>
-                        <li>
-                            <a href="">Строительная экспертиза</a>
-                        </li>
-                        <li>
-                            <a href="">Юридические услуги</a>
-                        </li>
-                        <li>
-                            <a href="">Оформление и узаконение имущества</a>
-                        </li>
-                        <li>
-                            <a href="">Налоговое и правовое консультирование</a>
-                        </li>
-                        <li>
-                            <a href="">Аудиторские услуги</a>
-                        </li>
-                        <li>
-                            <a href="">Помощь в получении займов в банках РК</a>
-                        </li>
-                    </ul>
+                    <?php wp_nav_menu(array(
+                        'menu' => 5,
+                        'menu_class' => '', // Можно также указать класс для стилизации меню через CSS.
+                        'container' => ' ',
+                        'container_class' => ' ', // Можно также указать класс контейнера.
+                    ));
+
+                    ; ?>
+                    
                 </div>
             </div>
         </div>
         <div class="header__mobile">
             <div class="header__mobile--wrapper"></div>
             <div class="header__mobile--content">
-                <?php wp_nav_menu(); ?>
-                <!-- <div class="header__nav">
-                    <ul>
-                        <li>
-                            <a href="/about">О нас</a>
-                        </li>
-                        <li>
-                            <a href="/services" id="services">Услуги</a>
-                        </li>
-                        <li>
-                            <a href="/trustus">Нам доверяют</a>
-                        </li>
-                        <li>
-                            <a href="/news">Публикации</a>
-                        </li>
-                        <li>
-                            <a href="/contacts">Контакты</a>
-                        </li>
-                    </ul>
-                </div> -->
+                <?php wp_nav_menu(); ?>                
             </div>
         </div>
     </header>

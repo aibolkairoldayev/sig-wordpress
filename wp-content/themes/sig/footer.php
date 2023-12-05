@@ -25,54 +25,18 @@
             </div>
             <div class="footer__right">
                 <?php wp_nav_menu(); ?>
-                <!-- <div class="footer__nav">
-                    <ul>
-                        <li>
-                            <a href="/about">О нас</a>
-                        </li>
-                        <li>
-                            <a href="/services">Услуги</a>
-                        </li>
-                        <li>
-                            <a href="/trustus">Нам доверяют</a>
-                        </li>
-                        <li>
-                            <a href="/news">Публикации</a>
-                        </li>
-                        <li>
-                            <a href="/contacts">Контакты</a>
-                        </li>
-                    </ul>
-                </div> -->
-                <ul class="footer__subnav">
-                    <li>
-                        <a href="">Оценка движимого и недвижимого имущества</a>
-                    </li>
-                    <li>
-                        <a href="">Строительная экспертиза</a>
-                    </li>
-                    <li>
-                        <a href="">Оценка интеллектуальной собственности</a>
-                    </li>
-                    <li>
-                        <a href="">Оформление и узаконение имущества</a>
-                    </li>
-                    <li>
-                        <a href="">Аудиторские услуги</a>
-                    </li>
-                    <li>
-                        <a href="">Налоговое и правовое консультирование</a>
-                    </li>
-                    <li>
-                        <a href="">Помощь в получении займов в банках РК</a>
-                    </li>
-                    <li>
-                        <a href="">Юридические услуги</a>
-                    </li>
-                </ul>
+                <?php wp_nav_menu(array(
+                        'menu' => 5,
+                        'menu_class' => 'footer__subnav', // Можно также указать класс для стилизации меню через CSS.
+                        'container' => ' ',
+                        'container_class' => ' ', // Можно также указать класс контейнера.
+                    ));
+
+                    ; ?>
+                
                 <div class="footer__bot">
                     <div class="footer__mobile">
-                        <a href="">+7 (707) 777-77-77</a>
+                        <a href="77071320798">+7 (707) 132-07-98</a>
                         <a href="">someemail@mail.com</a>
                     </div>
                     <p>Все права защищены</p>
