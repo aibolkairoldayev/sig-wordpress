@@ -1375,7 +1375,7 @@ img {
   border-radius: 10px;
   background: rgba(129, 216, 208, 0.50);
   backdrop-filter: blur(8.5px);
-  max-width: 570px;
+  max-width: 80%;
   padding: 65px 50px;
   color: #F7F7F7;
   font-size: 70px;
@@ -1465,6 +1465,38 @@ img {
 
 .footer__mobile {
   display: none;
+}
+
+.error {
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error__title {
+  color: #F6CB61;
+  font-size: 200px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.error__text {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 50px 0;
+}
+
+.error__btn {
+  height: 55px;
+  padding: 12px 50px;
+}
+
+.single .consult {
+  margin-bottom: 0;
 }
 
 @media (max-width: 1400px) {
