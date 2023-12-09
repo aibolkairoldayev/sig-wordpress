@@ -20,12 +20,7 @@ if ( ! defined( '_S_VERSION' ) ) {
  * as indicating support for post thumbnails.
  */
 function sig_setup() {
-	/*
-		* Make theme available for translation.
-		* Translations can be filed in the /languages/ directory.
-		* If you're building a theme based on sig, use a find and replace
-		* to change 'sig' to the name of your theme in all the template files.
-		*/
+	
 	load_theme_textdomain( 'sig', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.

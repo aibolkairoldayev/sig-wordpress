@@ -9,7 +9,7 @@
 <main class="main">
         <div class="container">
             <div class="breadcrumbs">
-                <a href="index.html">Главная</a>
+                <a href="/">Главная</a>
                 <p>></p>
                 <p>Контакты </p>
             </div>

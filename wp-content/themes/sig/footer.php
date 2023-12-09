@@ -20,13 +20,16 @@
                 </a>
                 <div class="footer__deskop">
                     <a href="">+7 (707) 777-77-77</a>
-                    <a href="">someemail@mail.com</a>
+                    <a href="mailto:too.sig@mail.ru">too.sig@mail.ru</a>
                 </div>
             </div>
             <div class="footer__right">
                 <?php wp_nav_menu(); ?>
-                <?php wp_nav_menu(array(
-                        'menu' => 5,
+                
+                <?php
+                $menu_id = (pll_current_language() === 'kk') ? 33 : 5;
+                 wp_nav_menu(array(
+                        'menu' => $menu_id,
                         'menu_class' => 'footer__subnav', // Можно также указать класс для стилизации меню через CSS.
                         'container' => ' ',
                         'container_class' => ' ', // Можно также указать класс контейнера.

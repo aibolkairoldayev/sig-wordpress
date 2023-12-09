@@ -68,7 +68,7 @@
 
                     </div>
                     <div class="company__right">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company.png" alt="company">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company.png" alt="company" loading='lazy'>
                     </div>
                 </div>
             </section>
@@ -76,7 +76,7 @@
                 <div class="devolopment__title main-title">Устойчивое развитие </div>
                 <div class="devolopment__top">
                     <div class="devolopment__left">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/development.png" alt="development">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/development.png" alt="development" loading='lazy'>
                     </div>
                     <div class="devolopment__right">
                         Устойчивое развитие – это дело всей жизни каждой компании.
@@ -148,43 +148,83 @@
         <div class="container">
             <div class="team__title2 main-title">КОМАНДА</div>
             <div class="team__slider2">
-                <div class="team__item2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team1.jpg" alt="person">
-                    <b>Имя Фамилия</b>
-                    <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet. </p>
-                </div>
-                <div class="team__item2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team2.jpg" alt="person">
-                    <b>Имя Фамилия</b>
-                    <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet. </p>
-                </div>
-                <div class="team__item2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team3.jpg" alt="person">
-                    <b>Имя Фамилия</b>
-                    <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet. </p>
-                </div>
-                <div class="team__item2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team4.jpg" alt="person">
-                    <b>Имя Фамилия</b>
-                    <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet. </p>
-                </div>
-                <div class="team__item2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team5.jpg" alt="person">
-                    <b>Имя Фамилия</b>
-                    <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet. </p>
-                </div>
-                <div class="team__item2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team6.jpg" alt="person">
-                    <b>Имя Фамилия</b>
-                    <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet. </p>
-                </div>
-                <div class="team__item2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team7.jpg" alt="person">
-                    <b>Имя Фамилия</b>
-                    <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet. </p>
-                </div>
-
+            <div class="team__item2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team3.jpg" alt="person" loading='lazy'>
+                <b>Саржанов Асхат</b>
+                <p>Основатель компании</p>
+                <p>
+                    За его плечами более 30-летний опыт работы в сфере оценки бизнеса и оценке стоимости 
+                    нематериальных и основных активов и управления проектами. За годы осуществления деятельности, 
+                    руководил множеством проектов по оценке имущества производственных предприятий, организовывает 
+                    обслуживание страховых компаний. А также, внес значительный вклад в развитие данной отрасли 
+                    в РК. Член палаты оценщиков «Содружество оценщиков Казахстана», Член экспертного совета палаты 
+                    оценщиков «Содружество оценщиков Казахстана».
+                </p>
             </div>
+            <div class="team__item2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team4.jpg" alt="person" loading='lazy'>
+                <b>Саржанов Муслим</b>
+                <p>Генеральный директор</p>
+                <p>
+                    Общий стаж работы более 20 лет. Оценщик - член и советник директора палаты оценщиков 
+                    «Содружество оценщиков Казахстана». 
+                    Цель: давать людям уверенность и надежность, делая их жизнь лучше, помогая реализовывать их 
+                    устремления и мечты. 
+                    Лозунг: Я знаю цену времени, имущества и мысли!!!
+                    Мечта: основать первую Казахстанскую международную компанию в области консалтинга и 
+                    финансовых услуг, со 100% Казахстанским участием.
+                </p>
+            </div>
+            <div class="team__item2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team6.jpg" alt="person" loading='lazy'>
+                <b>Саржанов Даирхан</b>
+                <p>Заместитель Генерального директора</p>
+                <p>
+                    За свой более чем 15-летний опыт работы в сфере оценки, является лидером практики оценочных 
+                    услуг, создает команды из людей со стратегическим видением для быстрого и эффективного 
+                    оказания услуг клиентам.
+                </p>
+            </div>
+            <div class="team__item2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team2.jpg" alt="person" loading='lazy'>
+                <b>Китайбек Асхат</b>
+                <p>Директор SMAD GROUP</p>
+                <p>
+                    За свой более чем 4-летний опыт работы в сфере оценки успешно инициировал и возглавлял ряд 
+                    сложноорганизованных проектов — от концепции до завершения. В нынешнем качестве директора 
+                    отвечает за всестороннюю реализацию флагманского проекта.
+                </p>
+            </div>
+            <div class="team__item2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team5.jpg" alt="person" loading='lazy'>
+                <b>Нигматов Малик</b>
+                <p>Директор Ocenim.kz</p>
+                <p>
+                    За его плечами более 5-летний опыт работы в сфере оценки и управления проектами. Эффективный 
+                    лидер с обширным опытом предоставления услуг.
+                </p>
+            </div>
+            <div class="team__item2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team1.jpg" alt="person" loading='lazy'>
+                <b>Аймухамбетов Темирлан</b>
+                <p>Директор Golden Mark Group</p>
+                <p>
+                    За свой более чем 7-летний опыт работы в сфере оценки, активно участвует в проектах по 
+                    улучшению делового климата и инвестиционной привлекательности, курирует проекты по оценке.
+                </p>
+            </div>                                               
+            <div class="team__item2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team7.jpg" alt="person" loading='lazy'>
+                <b>Нурадилов Азамат</b>
+                <p>Директор SAD Group</p>
+                <p>
+                    За свой более чем 2-летний опыт работы в сфере оценки, стремится создавать ценность для 
+                    бизнеса и общества, помогая клиентам пройти через трансформацию их бизнеса. Благодаря 
+                    приверженности принципам прозрачности и доверия, Азамат выстраивает долгосрочные и надежные 
+                    отношения с клиентами.
+                </p>
+            </div>
+        </div>
         </div>
 
         <section class="alyans">
@@ -256,89 +296,87 @@
             </div>
             <div class="team__slider1">
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part1.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part1.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part2.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part2.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part3.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part3.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part4.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part4.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part5.jpg" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part5.jpg" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part6.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part6.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part8.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part8.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part9.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part9.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part10.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part10.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part11.jpg" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part11.jpg" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part12.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part12.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part13.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part13.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part14.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part14.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part15.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part15.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part16.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part16.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part17.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part17.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part18.jpg" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part18.jpg" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part19.jpg" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part19.jpg" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part20.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part20.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part21.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part21.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part22.jpg" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part22.jpg" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="ass<?php echo get_template_directory_uri(); ?>/ets/img/part23.jpg" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part23.jpg" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part24.jpg" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part24.jpg" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part25.jpg" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part25.jpg" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part26.jpg" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part26.jpg" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part27.png" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part27.png" alt="icon" loading='lazy'>
                 </div>
                 <div class="team__item1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part28.jpg" alt="icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/part28.jpg" alt="icon" loading='lazy'>
                 </div>
-
             </div>
-
         </section>
 
         <section class="licence">
@@ -354,7 +392,7 @@
 
         <section class="howork">
             <div class="howork__bg">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-bg.png" alt="bg">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/team-bg.png" alt="bg" loading='lazy'>
             </div>
             <div class="container">
                 <div class="howork__title main-title">Как мы работаем</div>
@@ -385,7 +423,7 @@
 
         <section class="contacts">
             <div class="contacts__bg">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/contacts-bg.png" alt="bg">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/contacts-bg.png" alt="bg" loading='lazy'>
             </div>
             <div class="container">
                 <div class="contacts__info">
@@ -401,7 +439,7 @@
                         <a href="">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/fb.svg" alt="icon">
                         </a>
-                        <a href="">
+                        <a href="https://wa.me/87071320798">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/whtsp.svg" alt="icon">
                         </a>
                         <a href="">

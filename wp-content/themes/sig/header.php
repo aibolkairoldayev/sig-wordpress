@@ -38,30 +38,12 @@
                 </a>
                 <div class="header__menu--desktop">
                     <?php wp_nav_menu(); ?>
-                    <!-- <div class="header__nav">
-                        <ul>
-                            <li>
-                                <a href="/about">О нас</a>
-                            </li>
-                            <li>
-                                <a href="/services" id="services">Услуги</a>
-                            </li>
-                            <li>
-                                <a href="/trustus">Нам доверяют</a>
-                            </li>
-                            <li>
-                                <a href="/news">Публикации</a>
-                            </li>
-                            <li>
-                                <a href="/contacts">Контакты</a>
-                            </li>
-                        </ul>
-                    </div> -->
+                    
                 </div>
                 <div class="langs">
-                    <p>Рус</p>
+                    <a href="<?php echo pll_home_url('ru'); ?>" <?php echo (pll_current_language() === 'ru') ? 'class="activeLang"' : ''; ?>>Рус</a>
                     <hr>
-                    <a href="/kk">Қаз</a>
+                    <a href="<?php echo pll_home_url('kk'); ?>" <?php echo (pll_current_language() === 'kk') ? 'class="activeLang"' : ''; ?>>Қаз</a>
                 </div>
                 <div class="burger">
                     <span></span>
@@ -84,8 +66,10 @@
                     </p>
                 </div>
                 <div class="header__right">
-                    <?php wp_nav_menu(array(
-                        'menu' => 5,
+                    <?php
+                    $menu_id = (pll_current_language() === 'kk') ? 33 : 5;
+                    wp_nav_menu(array(
+                        'menu' => $menu_id,
                         'menu_class' => '', // Можно также указать класс для стилизации меню через CSS.
                         'container' => ' ',
                         'container_class' => ' ', // Можно также указать класс контейнера.
